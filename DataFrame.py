@@ -121,7 +121,7 @@ class DataFrame:
     def showImage(self,_index):
         """ Takes an index and opens the assosciated image """
         try:
-            im = Image.open('Cereal Pictures/'+str(self.df.iloc[_index].img))
+            im = Image.open('str(self.df.iloc[_index].img))
             im.show()
         except:
             print('Error displaying image of cereal! Either provided index is wrong or requested row doesn´t have an image file assosciated with it.')
